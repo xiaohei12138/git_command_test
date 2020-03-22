@@ -7,3 +7,5 @@ git branch local_branch
 提交新的分支到服务器
 git push origin local_branch:origin_branch
 
+git push origin local_branch 这样会直接把本地local_branch 分支上传的远程的同名的分支上，如果没此分支，就会新建
+
